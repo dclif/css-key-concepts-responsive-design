@@ -8,6 +8,7 @@
 
 html {
     font-size: 100%; 
+    font-family: 'Roboto', sans-serif;
   }
 
 body {
@@ -36,4 +37,39 @@ img {
     display: flex;
     flex-wrap: wrap;
     
+}
+
+@media screen and (min-width: 700px){
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    p {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    h1 {
+        font-size: 4rem;
+    }
+    
+    p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cat-ipsum{
+        display: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    * {
+        background-color: black;
+        color: white;
+      }
+    
+      
 }
