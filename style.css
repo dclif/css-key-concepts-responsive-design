@@ -6,8 +6,20 @@
     --camel: #D8A47F;
 }
 
+html {
+    font-size: 100%; 
+  }
+
 body {
     background-color: var(--light);
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+p {
+    font-size: 0.75rem;
 }
 
 .card {
